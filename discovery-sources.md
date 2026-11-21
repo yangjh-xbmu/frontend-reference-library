@@ -20,8 +20,8 @@
 | Bartosz Ciechanowski | https://ciechanow.ski/ | 可交互解释与数字人文 | 顶级 Explorable Explanations，用 Canvas/WebGL 交互滑块把复杂机械与物理原理讲透 | F05 | 2026-11-21 |
 | Explorable Explanations | https://explorabl.es/ | 可交互解释与数字人文 | 交互式科普与教学作品聚合索引，适合竞赛选题与《互动媒体设计》课程 | F06 | 2026-11-21 |
 | Distill | https://distill.pub/ | 可交互解释 / AI 教学 | 机器学习交互式学术论文标杆，正文与实时可调图解深度融合 | F07 | 2026-11-21 |
-| 澎湃美数课 | https://www.thepaper.cn/newsDetail_forward_... / https://www.thepaper.cn/list_25635 | 数据新闻与滚动叙事 | 中文数据新闻与融媒体长图/互动专题代表，贴近国内新闻传播教学语境 | 待核看 | 2026-11-21 |
-| 财新数据新闻 / 视觉实验室 | https://datanews.caixin.com/ | 数据新闻与滚动叙事 | 中文严肃议题的数据叙事与专题排版 | 待核看 | 2026-11-21 |
+| 澎湃美数课 | https://www.thepaper.cn/list_25635 | 数据新闻与滚动叙事 | 中文数据新闻与融媒体长图/互动专题代表，贴近国内新闻传播教学语境 | F11 | 2026-11-21 |
+| 财新数据新闻 / 视觉实验室 | https://datanews.caixin.com/ | 数据新闻与滚动叙事 | 中文严肃议题的数据叙事与专题排版 | F12 | 2026-11-21 |
 
 ## 二档：标杆产品与文档工程（适合拆解工作台、设计系统与信息架构）
 
@@ -32,7 +32,10 @@
 | Stripe Docs | https://docs.stripe.com/ | 教学门户与轻量化落地页 | 开发者文档与交互式代码/API 联动的行业金标准，双栏对照与目录体验极佳 | F08 | 2026-11-21 |
 | Astro Showcase | https://astro.build/showcase/ | 教学门户与轻量化落地页 | 轻量静态/内容驱动站点合集，贴合课程讲义与个人学术主页技术栈 | F09 | 2026-11-21 |
 | Vercel / Geist Design System | https://vercel.com/geist/introduction | 教学门户 / 组件体系 | 极简黑白灰层级、清晰排版标尺与完整交互组件文档 | F10 | 2026-11-21 |
-| 故宫博物院数字文物库 | https://digicol.dpm.org.cn/ | 可交互解释与数字人文 | 中文数字人文检索、多维标签筛选与高清文物检视交互 | 待核看 | 2026-11-21 |
+| 故宫博物院数字文物库 | https://digicol.dpm.org.cn/ | 可交互解释与数字人文 | 中文数字人文检索、多维标签筛选与高清文物检视交互 | F13 | 2026-11-21 |
+| 数字敦煌 | https://www.e-dunhuang.com/ | 可交互解释与数字人文 | 丝路石窟数字资源门户与四大子库分流 | F14 | 2026-11-21 |
+| 中华珍宝馆 | https://www.ltfc.net/ | 可交互解释与数字人文 | 宣纸色温书画主题策展与轻量标签检索 | F15 | 2026-11-21 |
+| 全景故宫 | https://pano.dpm.org.cn/ | 可交互解释与数字人文 | 全屏鸟瞰全景空间热点与四角半透明 HUD | F16 | 2026-11-21 |
 
 ## 三档：精选交互模式与聚合目录（线索入口，须追至原始上线站核看）
 

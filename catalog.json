@@ -358,6 +358,222 @@
           "sha256": "338d7a5c9e209a997c41ad1cf1c0a88a3cbb569e554fd50a8e1dfed8ec2fb223"
         }
       ]
+    },
+    {
+      "id": "F11",
+      "slug": "thepaper-meishuke",
+      "title": "中文数据新闻与可视化专栏门户",
+      "work": "澎湃美数课",
+      "creator": "澎湃新闻",
+      "track": "data-journalism",
+      "track_label": "数据新闻与滚动叙事",
+      "url": "https://www.thepaper.cn/list_25635",
+      "format": "线上中文数据新闻专栏",
+      "patterns": [
+        "高信息密度中文图文卡片网格",
+        "清晰话题封面字号与色彩编码",
+        "图文/列表视图切换与右侧热榜分栏",
+        "贴合本土公共议题的数据叙事入口"
+      ],
+      "why": "国内最具代表性的持续更新中文数据新闻栏目；封面图直接使用中文数据结论大字与扁平插画结合，在信息流中快速建立议题抓取力。",
+      "transfer": "直接用于《融合新闻产品策划与制作》《数据新闻》课堂案例拆解，示范中文数据新闻选题包装、标题层级与移动端/PC 端双端图文排印。",
+      "limit": "列表页偏传统新闻门户架构；核心滚动叙事与交互图表需点入单篇融媒体专题页进一步拆解。",
+      "tech_hints": "React / Next.js 风格媒体门户、响应式网格布局",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F11-thepaper-meishuke",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F11-thepaper-meishuke/viewport-desktop.jpg",
+          "caption": "澎湃美数课 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 157852,
+          "sha256": "7fccb74497a70323a865d9c3f00eff5a2afd761815eb0d87f675ad9999d06646"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "slug": "caixin-datanews",
+      "title": "严肃财经与公共议题数据视觉专题站",
+      "work": "财新数据新闻",
+      "creator": "财新网 / 财新数据新闻",
+      "track": "data-journalism",
+      "track_label": "数据新闻与滚动叙事",
+      "url": "https://datanews.caixin.com/",
+      "format": "线上中文数据新闻专题站",
+      "patterns": [
+        "首屏焦点专题 + 右侧可视化精选双栏架构",
+        "数据新闻与可视化作品独立推荐区",
+        "严肃克制的中文黑体/宋体新闻排版",
+        "图文摘要与作者/记者署名规范"
+      ],
+      "why": "国内严肃新闻机构在数据可视化与深度报道结合上的长期标杆，版面克制、图表叙事服务于公共议题而非视觉噱头。",
+      "transfer": "适合《新闻编辑》《统计与大数据分析》课程讲解严肃中文数据报道的版面层级、图表摘要写法与多栏信息组织。",
+      "limit": "部分深度图文正文存在会员付费墙，课堂使用时建议聚焦公开专题页或结合其免费可视化作品拆解。",
+      "tech_hints": "传统新闻门户架构 + 单篇定制 HTML5/Canvas/D3 专题",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F12-caixin-datanews",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F12-caixin-datanews/viewport-desktop.jpg",
+          "caption": "财新数据新闻 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 172187,
+          "sha256": "a7047a577c1970bbce7085416d331cf7e49a0408529c9f97fae3ccd56bd74bc2"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "slug": "dpm-digicol",
+      "title": "超大规模文物多维检索与高清检视库",
+      "work": "故宫博物院数字文物库",
+      "creator": "故宫博物院",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://digicol.dpm.org.cn/",
+      "format": "线上数字人文检索与展陈平台",
+      "patterns": [
+        "故宫青绿传统色系与现代检索界面的克制融合",
+        "左侧多维分类筛选树（器类/朝代）+ 右侧瀑布流文物卡",
+        "15万+ 藏品总量实时反馈与中英文切换",
+        "顶部专题推荐位（马年文物专题/藏品总目）与全局检索联动"
+      ],
+      "why": "国内数字人文藏品平台的标杆之作：既保留鲜明的东方文物展陈气质，又具备极高的检索效率、清晰编号与零冗余的卡片信息密度。",
+      "transfer": "极度契合《丝路文化智能叙事与国际传播》及计算机设计大赛/NCDA 文化类项目，示范“传统美学配色 + 现代多维筛选 + 藏品详情卡”的平衡。",
+      "limit": "高分辨率深层缩放检视依赖后端瓦片图服务；教学项目借鉴时可用静态缩略图 + 轻量前端分面筛选复刻其信息架构。",
+      "tech_hints": "现代前端分面检索界面、瓦片图高清检视、响应式藏品网格",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F13-dpm-digicol",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F13-dpm-digicol/viewport-desktop.jpg",
+          "caption": "故宫博物院数字文物库 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 160263,
+          "sha256": "0816007432aed858df3de8bb282cad4fbf381e81283e53f4871f02dbc6e505ac"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "slug": "e-dunhuang",
+      "title": "丝路石窟数字资源与多库入口门户",
+      "work": "数字敦煌",
+      "creator": "敦煌研究院",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://www.e-dunhuang.com/",
+      "format": "线上数字人文与文化遗产门户",
+      "patterns": [
+        "深色沉浸式石窟视觉首屏 + 敦煌红功能入口底栏",
+        "四大子库清晰分流（资源库/开放素材库/数字藏经洞/研究文献库）",
+        "中英双语标题与书法体品牌标识并置",
+        "零干扰单屏入口直接导向交互探索"
+      ],
+      "why": "直接立足丝路与敦煌文化语境，用极具仪式感的深色低照度画幅烘托石窟文物，同时底部四个色块入口把学术、素材与互动体验清楚分流。",
+      "transfer": "与西北民族大学地域文化特色及《丝路文化智能叙事与国际传播》课程高度契合，是文化展陈类落地页首屏构图与色彩克制的直接范本。",
+      "limit": "首屏入口偏沉浸式展示，洞窟全景漫游与高清壁画体验需点击进入二级资源库，对网络带宽与 WebGL 性能有一定要求。",
+      "tech_hints": "全屏视口门户、全景/WebGL 洞窟漫游子系统",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F14-e-dunhuang",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F14-e-dunhuang/viewport-desktop.jpg",
+          "caption": "数字敦煌 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 105882,
+          "sha256": "29855bb5ad0b7bec4390f0ed3830d90c5a31eb5f26bd82157d1f273213c29c08"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "slug": "ltfc-zhenbaoguan",
+      "title": "中国传统书画专题策展与高清交互平台",
+      "work": "中华珍宝馆",
+      "creator": "中华珍宝馆",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://www.ltfc.net/",
+      "format": "线上数字书画策展与检索平台",
+      "patterns": [
+        "浅宣纸色温底色 + 策展式主题横幅（如“画里 citywalk”）",
+        "顶部极简检索 + 下方多维学科/媒介图标导航",
+        "按朝代/画派/专题组合的轻量标签栏",
+        "将古画长卷转化为主题“画单”的现代交互心智"
+      ],
+      "why": "把传统书画的高门槛学术档案，转译成了大众和学生都能轻松上手的“画单 + 主题策展 + 轻量标签筛选”界面，宣纸质感柔和耐看。",
+      "transfer": "非常适合指导学生做中国传统文化、地方非遗或文学地理类互动作品，学习如何把静态古籍/图像组织成有主题线索的策展入口。",
+      "limit": "部分超高清大图原图下载与高级功能需登录或会员权限，公开浏览与交互结构拆解不受影响。",
+      "tech_hints": "现代前端 SPA、瓦片图长卷浏览、主题策展标签体系",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F15-ltfc-zhenbaoguan",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F15-ltfc-zhenbaoguan/viewport-desktop.jpg",
+          "caption": "中华珍宝馆 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 154367,
+          "sha256": "ad0b02436dc9dda0676d67ecb270894c445e1c6fff6da78713a2c0447b54adda"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "slug": "dpm-pano",
+      "title": "空间热点与全景漫游数字展陈标杆",
+      "work": "全景故宫",
+      "creator": "故宫博物院",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://pano.dpm.org.cn/",
+      "format": "线上空间全景交互展陈",
+      "patterns": [
+        "全屏鸟瞰全景画布 + 空间定位热点图钉",
+        "极简悬浮 HUD 控件（顶部标题与实时人数、左导览、右地图/中轴线切换）",
+        "不遮挡主画面的边缘工具条布局",
+        "宏观空间总览到微观殿宇漫游的层级过渡"
+      ],
+      "why": "示范了全屏空间交互页面如何克制地放置 UI 控件：整个 100% 视口让给建筑空间本身，导航、地图、检索与导览全部收束在四角半透明浮层中。",
+      "transfer": "直接服务《互动媒体设计》与竞赛指导中的空间叙事、虚拟展馆、地理地图交互项目，避免学生在做全屏地图/全景页时把控件堆满画面。",
+      "limit": "全景图与 3D 鸟瞰资源体积较大，移动端弱网环境需要降级为静态平面导览图；教学原型可用 2D 地图 + 热点浮层实现同等交互逻辑。",
+      "tech_hints": "WebGL / 全景漫游引擎（Krpano 类架构）+ 半透明悬浮 HUD",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F16-dpm-pano",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F16-dpm-pano/viewport-desktop.jpg",
+          "caption": "全景故宫 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 225981,
+          "sha256": "6bc151eeb5b668ba4d6274e84ab69fe1aa0e98aea9c0528b013ddd8133b71997"
+        }
+      ]
     }
   ]
 }

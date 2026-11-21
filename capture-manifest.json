@@ -121,6 +121,78 @@
       "sha256": "338d7a5c9e209a997c41ad1cf1c0a88a3cbb569e554fd50a8e1dfed8ec2fb223",
       "captured_on": "2026-11-21",
       "status": "captured"
+    },
+    {
+      "id": "F11",
+      "slug": "thepaper-meishuke",
+      "url": "https://www.thepaper.cn/list_25635",
+      "path": "references/F11-thepaper-meishuke/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 157852,
+      "sha256": "7fccb74497a70323a865d9c3f00eff5a2afd761815eb0d87f675ad9999d06646",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F12",
+      "slug": "caixin-datanews",
+      "url": "https://datanews.caixin.com/",
+      "path": "references/F12-caixin-datanews/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 172187,
+      "sha256": "a7047a577c1970bbce7085416d331cf7e49a0408529c9f97fae3ccd56bd74bc2",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F13",
+      "slug": "dpm-digicol",
+      "url": "https://digicol.dpm.org.cn/",
+      "path": "references/F13-dpm-digicol/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 160263,
+      "sha256": "0816007432aed858df3de8bb282cad4fbf381e81283e53f4871f02dbc6e505ac",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F14",
+      "slug": "e-dunhuang",
+      "url": "https://www.e-dunhuang.com/",
+      "path": "references/F14-e-dunhuang/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 105882,
+      "sha256": "29855bb5ad0b7bec4390f0ed3830d90c5a31eb5f26bd82157d1f273213c29c08",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F15",
+      "slug": "ltfc-zhenbaoguan",
+      "url": "https://www.ltfc.net/",
+      "path": "references/F15-ltfc-zhenbaoguan/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 154367,
+      "sha256": "ad0b02436dc9dda0676d67ecb270894c445e1c6fff6da78713a2c0447b54adda",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F16",
+      "slug": "dpm-pano",
+      "url": "https://pano.dpm.org.cn/",
+      "path": "references/F16-dpm-pano/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 225981,
+      "sha256": "6bc151eeb5b668ba4d6274e84ab69fe1aa0e98aea9c0528b013ddd8133b71997",
+      "captured_on": "2026-11-21",
+      "status": "captured"
     }
   ]
 }
