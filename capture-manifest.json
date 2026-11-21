@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-11-21",
+  "items": [
+    {
+      "id": "F01",
+      "slug": "linear",
+      "url": "https://linear.app/",
+      "path": "references/F01-linear/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 34279,
+      "sha256": "9a713f07d8432db0fdf0cfeb256ad143c8904d31fc3360441f3ece9f0c253554",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F02",
+      "slug": "notebooklm",
+      "url": "https://notebooklm.google/",
+      "path": "references/F02-notebooklm/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 34673,
+      "sha256": "97b92a4d7112345311d3f9941cbd751bd353145f7148813dc572cec82019849c",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F03",
+      "slug": "the-pudding",
+      "url": "https://pudding.cool/",
+      "path": "references/F03-the-pudding/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 91745,
+      "sha256": "ceecd6e6284feb68d2a6aefdd691131f67014612e5c69d8c789db4c12ad265aa",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F04",
+      "slug": "our-world-in-data",
+      "url": "https://ourworldindata.org/co2-emissions",
+      "path": "references/F04-our-world-in-data/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 114619,
+      "sha256": "38eff78d3aa7d4c86cbc350a7dcc4c6c5a23408a4ea7bf0699c0a7302a5ec7e0",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F05",
+      "slug": "ciechanowski-mechanical-watch",
+      "url": "https://ciechanow.ski/mechanical-watch/",
+      "path": "references/F05-ciechanowski-mechanical-watch/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 69942,
+      "sha256": "1ee4d5acff5c2e3446b31e58d790078750a34157d1f582a6072918c0081717bf",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F06",
+      "slug": "explorable-explanations",
+      "url": "https://explorabl.es/",
+      "path": "references/F06-explorable-explanations/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 103607,
+      "sha256": "818770c029025f424f4faa97a87ee4b09daee2615c6d89b2147bbc3606a29990",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F07",
+      "slug": "distill-feature-viz",
+      "url": "https://distill.pub/2017/feature-visualization/",
+      "path": "references/F07-distill-feature-viz/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 285292,
+      "sha256": "9b3c5ff6a702bb75ad2b5eb8ddbe798e983fb9a8a808dca1136d78d85be826b3",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F08",
+      "slug": "stripe-docs",
+      "url": "https://docs.stripe.com/",
+      "path": "references/F08-stripe-docs/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 101701,
+      "sha256": "6d0b4f77d520404e5c0270651d23f1a1610108585081bb71de3941b78feba259",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F09",
+      "slug": "astro-showcase",
+      "url": "https://astro.build/showcase/",
+      "path": "references/F09-astro-showcase/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 158466,
+      "sha256": "aaf7b5c60cf7e8dac0b05146587b6c48e3d61f6436afb52954d14a54f08082bf",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    },
+    {
+      "id": "F10",
+      "slug": "vercel-geist",
+      "url": "https://vercel.com/geist/introduction",
+      "path": "references/F10-vercel-geist/viewport-desktop.jpg",
+      "viewport": "1440x900",
+      "scaled_to": "1280x800",
+      "bytes": 67531,
+      "sha256": "338d7a5c9e209a997c41ad1cf1c0a88a3cbb569e554fd50a8e1dfed8ec2fb223",
+      "captured_on": "2026-11-21",
+      "status": "captured"
+    }
+  ]
+}

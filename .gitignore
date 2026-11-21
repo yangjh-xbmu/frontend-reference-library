@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+.venv/
+node_modules/

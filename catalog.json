@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-21",
+  "items": [
+    {
+      "id": "F01",
+      "slug": "linear",
+      "title": "高密度研发与智能体工作台",
+      "work": "Linear",
+      "creator": "Linear",
+      "track": "ai-workbench",
+      "track_label": "AI 工作台与人机协同",
+      "url": "https://linear.app/",
+      "format": "线上产品与交互展示页",
+      "patterns": [
+        "暗色低干扰信息层级",
+        "键盘优先与命令面板",
+        "团队与 Agent 任务流整合",
+        "克制的微交互状态反馈"
+      ],
+      "why": "在极高信息密度的任务与智能体协作场景下，仍能通过明度层级、细边框与精准留白保持界面克制；首屏已将 teams and agents 作为核心叙事。",
+      "transfer": "直接对应 yuqing-agent-system 研判工作台与控制台的信息降噪、左侧导航层级与长任务状态条设计。",
+      "limit": "公开官网主要展示产品界面片段与叙事，完整工作台交互需登录体验；暗色主题迁移到政务/学术汇报场景时需注意对比度与投影可读性。",
+      "tech_hints": "React / Next.js 风格现代前端、CSS 变量设计令牌、硬件加速微动效",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F01-linear",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F01-linear/viewport-desktop.jpg",
+          "caption": "Linear 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 34279,
+          "sha256": "9a713f07d8432db0fdf0cfeb256ad143c8904d31fc3360441f3ece9f0c253554"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "slug": "notebooklm",
+      "title": "多源资料库与证据溯源工作区",
+      "work": "Gemini Notebook（原 NotebookLM）",
+      "creator": "Google",
+      "track": "ai-workbench",
+      "track_label": "AI 工作台与人机协同",
+      "url": "https://notebooklm.google/",
+      "format": "线上产品入口与交互范式",
+      "patterns": [
+        "资料源列表 + 对话问答 + 输出画布三栏布局",
+        "行内引用角标与原文溯源高亮",
+        "多模态资料转译（文档→简报/音频/演示稿）"
+      ],
+      "why": "将封闭资料库、对话式问答与可追溯原文引用结合得最为清晰，避免通用聊天框的“无据可查”问题。",
+      "transfer": "直接对应 contest-hub 赛事知识库问答界面与 yuqing-agent-system 证据链核验（判断、证据、原文锚点联动）。",
+      "limit": "官网首屏为产品入口页（2026-11 实测已更名为 Gemini Notebook），内部三栏工作区需 Google 账号登录查看。",
+      "tech_hints": "Google Material / 现代 Web 应用架构",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F02-notebooklm",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F02-notebooklm/viewport-desktop.jpg",
+          "caption": "Gemini Notebook（原 NotebookLM） 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 34673,
+          "sha256": "97b92a4d7112345311d3f9941cbd751bd353145f7148813dc572cec82019849c"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "slug": "the-pudding",
+      "title": "视觉叙事论文目录与滚动叙事标杆",
+      "work": "The Pudding",
+      "creator": "The Pudding",
+      "track": "data-journalism",
+      "track_label": "数据新闻与滚动叙事",
+      "url": "https://pudding.cool/",
+      "format": "线上数据新闻与视觉叙事站",
+      "patterns": [
+        "编辑式视觉索引卡片",
+        "按媒介维度筛选（Video/Audio/Your Input）",
+        "Scrollytelling 滚动步进叙事",
+        "强叙事节奏的封面色彩编码"
+      ],
+      "why": "国际视觉叙事与数据新闻的标杆站点；首页卡片本身就用极高辨识度的编辑式色块与摘要，示范了如何把数据故事包装成可浏览的作品集。",
+      "transfer": "直接服务《融合新闻产品策划与制作》《互动媒体设计》课程案例讲授，以及学生数据新闻专题作品的入口与滚动叙事结构。",
+      "limit": "英文语境为主，部分单篇作品重度定制 SVG/Canvas；教学借鉴时应拆解其叙事脚本与滚动触发逻辑，而非照搬视觉装饰。",
+      "tech_hints": "Svelte / SvelteKit、D3.js、Scrollama、SVG/Canvas",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F03-the-pudding",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F03-the-pudding/viewport-desktop.jpg",
+          "caption": "The Pudding 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 91745,
+          "sha256": "ceecd6e6284feb68d2a6aefdd691131f67014612e5c69d8c789db4c12ad265aa"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "slug": "our-world-in-data",
+      "title": "可引用数据新闻与 Grapher 交互看板",
+      "work": "Our World in Data — CO2 Emissions",
+      "creator": "Our World in Data (Global Change Data Lab)",
+      "track": "data-journalism",
+      "track_label": "数据新闻与滚动叙事",
+      "url": "https://ourworldindata.org/co2-emissions",
+      "format": "线上开源数据叙事与交互图表站",
+      "patterns": [
+        "长文叙事与嵌入式交互图表融合",
+        "Chart/Map/Table 同源视图切换",
+        "时间轴滑块与国家多选对照",
+        "显性引用按钮与数据口径说明"
+      ],
+      "why": "把严肃学术数据、新闻式导语和可探索图表无缝揉在一起，每张图都带口径说明、原始数据下载与标准引用入口。",
+      "transfer": "直接对应《统计与大数据分析》课程演示（如 HSL 共享单车看板）与民族风险/舆情研究报告的在线证据展示。",
+      "limit": "首次访问底部会出现 Cookie 提示条；单页信息体量较大，迁移到课堂作业时可精简为“导语 + 单核心 Grapher 卡片”。",
+      "tech_hints": "TypeScript、React、开源 Grapher 图表引擎",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F04-our-world-in-data",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F04-our-world-in-data/viewport-desktop.jpg",
+          "caption": "Our World in Data — CO2 Emissions 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 114619,
+          "sha256": "38eff78d3aa7d4c86cbc350a7dcc4c6c5a23408a4ea7bf0699c0a7302a5ec7e0"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "slug": "ciechanowski-mechanical-watch",
+      "title": "机械原理可交互三维拆解长文",
+      "work": "Mechanical Watch",
+      "creator": "Bartosz Ciechanowski",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://ciechanow.ski/mechanical-watch/",
+      "format": "线上可交互解释长文（Explorable Explanation）",
+      "patterns": [
+        "正文段落穿插可拖拽 3D 模型",
+        "剖切滑块即时透视内部结构",
+        "零冗余控件的阅读焦距",
+        "由浅入深的部件逐层装配叙事"
+      ],
+      "why": "Explorable Explanations 的天花板级作品：把极其复杂的机械结构拆成几十个可动手拖拽、调速、剖切的小实验，完全靠交互把原理讲透。",
+      "transfer": "极度契合计算机设计大赛与 NCDA 的文化技艺/科学原理类作品指导（如榫卯结构《天地一榫》、古建筑与传统工艺拆解）。",
+      "limit": "WebGL 与物理模拟工程量极高；教学与竞赛中建议学习其“文字解释 + 紧邻单变量交互滑块”的叙事单元结构，用 SVG 或轻量 Canvas 实现即可。",
+      "tech_hints": "原生 HTML/CSS、自定义 WebGL 渲染器、极简静态博客排版",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F05-ciechanowski-mechanical-watch",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F05-ciechanowski-mechanical-watch/viewport-desktop.jpg",
+          "caption": "Mechanical Watch 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 69942,
+          "sha256": "1ee4d5acff5c2e3446b31e58d790078750a34157d1f582a6072918c0081717bf"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "slug": "explorable-explanations",
+      "title": "交互式科普与教学作品聚合枢纽",
+      "work": "Explorable Explanations",
+      "creator": "Explorable Explanations Community (initiated by Nicky Case)",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://explorabl.es/",
+      "format": "线上社区聚合目录",
+      "patterns": [
+        "低门槛趣味导语",
+        "按学科主题浏览交互式解释作品",
+        "单栏高可读内容流与随机探索入口"
+      ],
+      "why": "系统汇总了数学、社会科学、新闻传播、物理、算法等领域的“可玩式解释”作品，本身就是一个极好的课堂选题库与灵感目录。",
+      "transfer": "直接用于《互动媒体设计》《大数据与人工智能》的课堂案例拓展，以及学生竞赛选题头脑风暴。",
+      "limit": "聚合站本身界面复古轻巧，核心价值在于其收录的外部交互作品；部分早期外链作品可能已停服，课堂引用前需逐条核验。",
+      "tech_hints": "静态 HTML/CSS、轻量前端目录",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F06-explorable-explanations",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F06-explorable-explanations/viewport-desktop.jpg",
+          "caption": "Explorable Explanations 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 103607,
+          "sha256": "818770c029025f424f4faa97a87ee4b09daee2615c6d89b2147bbc3606a29990"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "slug": "distill-feature-viz",
+      "title": "交互式人工智能学术论文排版范式",
+      "work": "Distill — Feature Visualization",
+      "creator": "Chris Olah, Alexander Mordvintsev, Ludwig Schubert (Distill)",
+      "track": "explorable-humanities",
+      "track_label": "可交互解释与数字人文",
+      "url": "https://distill.pub/2017/feature-visualization/",
+      "format": "线上交互式学术期刊论文",
+      "patterns": [
+        "宽幅视觉矩阵首屏导读",
+        "边注（Sidenotes）与行内悬停引文",
+        "正文与交互式图解并置",
+        "规范 DOI/作者/发表日期学术元信息栏"
+      ],
+      "why": "将传统枯燥的 AI 学术论文转化为浏览器原生的互动阅读体验，视觉矩阵、边注和正文层次分明，兼顾学术严谨与直观理解。",
+      "transfer": "直接服务《大数据与人工智能》教学、研究生《丝路文化智能叙事与国际传播》课程展示，以及科研成果的 Web 化发布。",
+      "limit": "Distill 期刊已进入休刊归档状态，但既有文章长期在线可访问；国内网络加载大图矩阵时需留意图片体积优化。",
+      "tech_hints": "Distill Template (Web Components / Svelte / D3.js)",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F07-distill-feature-viz",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F07-distill-feature-viz/viewport-desktop.jpg",
+          "caption": "Distill — Feature Visualization 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 285292,
+          "sha256": "9b3c5ff6a702bb75ad2b5eb8ddbe798e983fb9a8a808dca1136d78d85be826b3"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "slug": "stripe-docs",
+      "title": "双栏对照与交互式代码文档金标准",
+      "work": "Stripe Docs",
+      "creator": "Stripe",
+      "track": "portal-docs",
+      "track_label": "教学门户与轻量化落地页",
+      "url": "https://docs.stripe.com/",
+      "format": "线上开发者文档与交互示例门户",
+      "patterns": [
+        "全局快捷键搜索 + Ask AI 入口并置",
+        "清晰的分层任务导航（Payments/Revenue/Developers）",
+        "页面内即时可切换代码的 Try it out 交互面板",
+        "极佳的浅色留白与边界线体系"
+      ],
+      "why": "开发者文档与技术教学门户的行业标杆：首屏不堆砌术语，而是按任务路径分流，并直接在首屏提供可切换示例的交互代码块。",
+      "transfer": "直接对应 fe-webdev 课程讲义站、AI agent 教学文档以及自研系统的使用手册与 API 文档设计。",
+      "limit": "商业产品文档体系庞大，教学站点只需借鉴其“顶部任务分类 + 左侧目录 + 嵌入式交互示例块”的核心骨架。",
+      "tech_hints": "Markdoc、React、现代设计系统",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F08-stripe-docs",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F08-stripe-docs/viewport-desktop.jpg",
+          "caption": "Stripe Docs 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 101701,
+          "sha256": "6d0b4f77d520404e5c0270651d23f1a1610108585081bb71de3941b78feba259"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "slug": "astro-showcase",
+      "title": "内容驱动型现代站点精选门户",
+      "work": "Astro Showcase",
+      "creator": "Astro",
+      "track": "portal-docs",
+      "track_label": "教学门户与轻量化落地页",
+      "url": "https://astro.build/showcase/",
+      "format": "线上作品集与生态展示目录",
+      "patterns": [
+        "暗色渐变首屏 + 响应式作品卡片网格",
+        "零冗余信息架构的顶部导航",
+        "真实上线站点直链与分类索引"
+      ],
+      "why": "集中展示 Astro 生态下真实上线的内容站、文档站与个人主页，与宏哥现有的 Astro / Tailwind / Cloudflare Pages 技术栈完全同构。",
+      "transfer": "适合作为课程项目展示墙、学生竞赛作品集官网以及个人轻量落地页的直接布局参考。",
+      "limit": "目录页本身偏展示型，具体交互模式需点入各入选站点逐个核看。",
+      "tech_hints": "Astro、Tailwind CSS、静态优先与局部水合（Islands）",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F09-astro-showcase",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F09-astro-showcase/viewport-desktop.jpg",
+          "caption": "Astro Showcase 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 158466,
+          "sha256": "aaf7b5c60cf7e8dac0b05146587b6c48e3d61f6436afb52954d14a54f08082bf"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "slug": "vercel-geist",
+      "title": "极简黑白灰设计系统与组件规范",
+      "work": "Vercel Geist Design System",
+      "creator": "Vercel",
+      "track": "portal-docs",
+      "track_label": "教学门户与轻量化落地页",
+      "url": "https://vercel.com/geist/introduction",
+      "format": "线上公开设计系统文档",
+      "patterns": [
+        "左侧分组组件树 + 右侧实时组件画廊",
+        "克制的黑白灰语义色阶与高对比度可访问性色板",
+        "字体标尺（Sans/Mono/Serif）系统化呈现",
+        "命令式站内检索（Cmd+K）"
+      ],
+      "why": "把字体、色彩、图标、交互组件和终端风格统一在一套极其克制的规范里，视觉噪音极低，工程落地成本可控。",
+      "transfer": "直接服务 yuqing-agent-system 的 design-system token 治理，以及《Web 前端开发》课程讲解设计系统与 Tailwind 组件规范。",
+      "limit": "极简黑白灰风格在人文/艺术类竞赛作品中可能显得偏冷，迁移到文化叙事类项目时需叠加主题色与中文衬线体气质。",
+      "tech_hints": "Next.js、React、CSS Variables、Geist 字体族",
+      "status": "candidate",
+      "user_feedback": null,
+      "approved_scope": [],
+      "retrieved_on": "2026-11-21",
+      "folder": "references/F10-vercel-geist",
+      "rights": "第三方公开网页，原作者保留全部权利；本公开仓库仅保存少量等比例缩放的界面截屏用于教学与设计评述引用，不搬运源码或商用素材。",
+      "screenshots": [
+        {
+          "path": "references/F10-vercel-geist/viewport-desktop.jpg",
+          "caption": "Vercel Geist Design System 桌面端首屏实测截屏（1440×900 等比例缩放至 1280×800）",
+          "viewport": "1440x900",
+          "bytes": 67531,
+          "sha256": "338d7a5c9e209a997c41ad1cf1c0a88a3cbb569e554fd50a8e1dfed8ec2fb223"
+        }
+      ]
+    }
+  ]
+}
