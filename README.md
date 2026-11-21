@@ -45,6 +45,7 @@
 ## 仓库入口
 
 - [维护与收录规则](AGENTS.md)
+- [AI Agent 维护 Skill (`frontend-reference-curator`)](.agents/skills/frontend-reference-curator/SKILL.md)
 - [案例发现常看清单](discovery-sources.md)
 - [结构化总目录 (`catalog.json`)](catalog.json)
 - [实测截屏校验清单 (`capture-manifest.json`)](capture-manifest.json)

@@ -30,6 +30,7 @@
 
 - `README.md`：按主线分类的可视浏览入口与总览表。
 - `AGENTS.md`：本仓库的维护、收录、认可与版权边界规则。
+- `.agents/skills/frontend-reference-curator/SKILL.md`：供 AI Agent 执行的标准化案例收编、截屏校验与认可回写 Skill。
 - `catalog.json`：全量结构化条目、来源、交互机制标签、筛选点评与认可状态。
 - `capture-manifest.json`：实测截屏的访问状态、文件大小、视口尺寸与 SHA-256 校验值。
 - `discovery-sources.md`：分档常看发现源与巡检记录。
